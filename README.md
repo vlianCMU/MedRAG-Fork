@@ -204,3 +204,15 @@ If you find our work useful, please consider citing our papers:
   doi       = {10.24963/ijcai.2025/1278},
   url       = {https://doi.org/10.24963/ijcai.2025/1278},
 }
+
+---
+
+## Ophthalmology consultation system scaffold
+
+If you want to build an ophthalmology consultation workflow with KG reasoning and proactive follow-up questions, see:
+
+- `docs/ophthalmology_system.md`
+- `scripts/build_ophthalmology_kg.py`
+- `scripts/run_ophthalmology_consultation.py`
+
+Put your ophthalmology textbook `.txt` files under `text/`, then run the scripts with `OPENAI_API_KEY` configured.
